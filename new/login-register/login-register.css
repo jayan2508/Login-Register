@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(229, 229, 229);
+    margin: 0px;
+}
+
+.back-g {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+}
+
+.back-login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    padding-top: 20px;
+}
+
+.eye-p {
+    position: absolute;
+    width: 20px;
+    margin-left: 195px;
+    margin-top: 27px;
+}
+
+.eye-c {
+    position: absolute;
+    width: 20px;
+    margin-left: 135px;
+    margin-top: 27px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cecece8d;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.user-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.admin-user {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.border {
+    border-radius: 5px;
+    border: none;
+    width: 100.5%;
+}
+
+.login {
+    width: 100.5%;
+    background-color: forestgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.size {
+    height: 20px;
+}
+
+.hidden {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.astrict {
+    color: red;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 17px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 93.5%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.red-btn{
+    background-color: red;
+}
+
+#home.hidden,
+#userTable.hidden,
+#adminMessage.hidden {
+    display: none;
+}
+
+#home.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+thead {
+    background-color: rgb(252, 234, 211);
+}
+
+tbody {
+    background-color: rgba(254, 248, 240, 0.655);
+}
+.margin{
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.letter{
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+
+#adminMessage {
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
+/* Define CSS class for active and inactive status */
+.active {
+    color: green;
+}
+
+.inactive {
+    color: red;
+}

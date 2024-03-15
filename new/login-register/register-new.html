@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-register.css">
+    <title>Login and Registration</title>
+</head>
+
+<body>
+    <img src="b-g.jpg" alt="" class="back-g">
+    <div class="main-container">
+        <div class="container">
+            <div id="registration">
+                <h1>Registration</h1>
+                <form id="registrationForm">
+                    <label for="name" class="text">First Name<span class="astrict"> *</span></label>
+                    <input type="text" class="border" id="firstName" placeholder="First Name" aria-label="First name">
+                    <div class="size">
+                        <p id="nameError" class="error"></p>
+                    </div>
+                    <label for="name" class="text">Last Name</label>
+                    <input type="text" class="border" id="lastName" placeholder="Last Name">
+                    <div class="size">
+                        <p class="error"></p>
+                    </div>
+                    <label for="name" class="text">User Name<span class="astrict"> *</span></label>
+                    <input type="text" class="border" id="username" placeholder="Username">
+                    <div class="size">
+                        <p id="userError" class="error"></p>
+                    </div>
+                    <label for="password" class="text">Password<span class="astrict"> *</span></label>
+                    <img src="eye-hide.png" class="eye-p" onclick="pass()" id="pass-icon" alt="">
+                    <input type="password" class="border" id="password" placeholder="Password" required>
+                    <div class="size">
+                        <p class="error" id="passError"></p>
+                    </div>
+                    <label for="confirm_password" class="text">Confirm Password<span class="astrict"> *</span></label>
+                    <img src="eye-hide.png" class="eye-c" onclick="passC()" id="c-pass-icon" alt="">
+                    <input type="password" class="border" id="confirmPassword" placeholder="Confirm Password">
+                    <div class="size">
+                        <p id="alert" class="error"></p>
+                    </div>
+                    <label for="email" class="text">Email Address<span class="astrict"> *</span></label>
+                    <input type="email" class="border" id="email" placeholder="Email">
+                    <div class="size">
+                        <p id="emailError" class="error"></p>
+                    </div>
+                    <label for="role" class="text">Role : </label>
+                    <select id="role" class="border" required>
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                    <button type="submit" class="border">Register</button>
+                    <p class="center">Login your account?<a href="login-new.html">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="register-new.js"></script>
+
+</html>

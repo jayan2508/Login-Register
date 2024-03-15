@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login-register.css">
+    <title>login page</title>
+</head>
+
+<body>
+    <img src="b-g.jpg" class="back-login" alt="">
+    <div class="main-container">
+        <div class="container" id="container">
+            <div id="login">
+                <h1>Login</h1>
+                <form id="loginForm">
+                    <label for="name" class="text">User Name</label>
+                    <input type="text" class="border" id="loginUsername" placeholder="Username">
+                    <label for="password" class="text">Password</label>
+                    <img src="eye-hide.png" class="eye-p" onclick="pass()" id="pass-icon" alt="">
+                    <input type="password" class="border" id="loginPassword" placeholder="Password">
+                    <div class="size">
+                        <p id="loginError" class="error"></p>
+                    </div>
+                    <button type="submit" class="border login">Login</button>
+                    <p class="center">Back to?<a href="register-new.html">Register</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="login-new.js"></script>
+
+</html>
